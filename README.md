@@ -52,3 +52,7 @@ Demo films stream from that repo's `films` GitHub release, so they aren't copied
 | GET | `/api/styles/:slug` (guide included when logged in) | |
 | GET | `/api/me/favorites` | required |
 | POST / DELETE | `/api/me/favorites/:slug` | required |
+
+## Deploy
+
+`render.yaml` deploys the site on [Render](https://render.com): New > Blueprint, pick this repo. It runs on the Starter plan with a 1 GB disk so accounts survive redeploys (Render's free plan has no disk, so users would be wiped on every deploy).
