@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Log in · ClaudeCodes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;600&family=Sora:wght@600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="auth-page">
+<main class="auth-wrap">
+  <a class="brand auth-brand" href="/"><span class="brand-mark">&lt;/&gt;</span>ClaudeCodes</a>
+  <section class="auth-card" aria-labelledby="auth-title">
+    <h1 id="auth-title">Welcome back</h1>
+    <p class="auth-sub">Log in to open style guides and your saved styles.</p>
+    <form id="auth-form" data-mode="login" novalidate>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required></div>
+      <p class="form-error" id="form-error" role="alert" hidden></p>
+      <button class="btn btn-primary" type="submit" id="submit">Log in</button>
+    </form>
+    <p class="auth-switch">New to ClaudeCodes? <a href="/signup" data-keep-next>Create an account</a></p>
+  </section>
+</main>
+<footer class="footer footer-slim">
+  <div class="wrap legal"><span>© 2026 ClaudeCodes · Not affiliated with Anthropic.</span><span>Styles and demo films by <a href="https://github.com/lemomo-ai/lemo-opuscar" target="_blank" rel="noopener">LemoLab</a>, CC BY 4.0.</span></div>
+</footer>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/auth-form.js"></script>
+</body>
+</html>

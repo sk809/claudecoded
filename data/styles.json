@@ -1,0 +1,1295 @@
+{
+  "source": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "licence": "Code MIT; demo films and stills CC BY 4.0 by LemoLab",
+    "importedAt": "2026-10-26T09:00:09.518Z"
+  },
+  "categories": [
+    {
+      "id": "edit-and-documentary",
+      "label": "Edit & Documentary"
+    },
+    {
+      "id": "evidence-films",
+      "label": "Evidence Films"
+    },
+    {
+      "id": "hand-drawn-and-painting",
+      "label": "Hand-drawn & Painting"
+    },
+    {
+      "id": "east-asian-traditions",
+      "label": "East Asian Traditions"
+    },
+    {
+      "id": "print-and-printmaking",
+      "label": "Print & Printmaking"
+    },
+    {
+      "id": "graphic-and-type",
+      "label": "Graphic & Type"
+    },
+    {
+      "id": "information-and-keynote",
+      "label": "Information & Keynote"
+    },
+    {
+      "id": "cartoon-and-anime",
+      "label": "Cartoon & Anime"
+    },
+    {
+      "id": "games",
+      "label": "Games"
+    },
+    {
+      "id": "cinema-and-eras",
+      "label": "Cinema & Eras"
+    },
+    {
+      "id": "materials-and-3d",
+      "label": "Materials & 3D"
+    }
+  ],
+  "styles": [
+    {
+      "slug": "caption-news",
+      "number": "63",
+      "name": "Caption News",
+      "nameCn": "字幕新闻",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "The Bee Ledger",
+      "line": "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.",
+      "summary": "Social-video news that reads with the sound off. Real footage, photos and the source document are the ground; huge captions are the lead actor, slammed in a chunk at a time with one keyword on a yellow block. Hard cuts on a music grid, numbers that roll, a source tag that slides in whenever a figure appears, and the original document highlighted on screen before its number is believed. 16:9, built for a feed.",
+      "uses": [
+        "Social news",
+        "Report explainers",
+        "Data shorts"
+      ],
+      "duration": 59.5,
+      "image": "/styles-img/caption-news.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/caption-news.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/caption-news",
+      "status": "live"
+    },
+    {
+      "slug": "newsreel",
+      "number": "64",
+      "name": "1920s Newsreel",
+      "nameCn": "1920s 新闻影片",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "Knock-Knee Alert",
+      "line": "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.",
+      "summary": "A sound newsreel of the late 1920s, cut from real archive material: a searchlight-and-globe ident with a brass fanfare, a newspaper that spins into the lens, a fast and cheerful announcer on an optical soundtrack, place-and-date cards, maps, magazine pages and documents, wipes, flips and irises, and a hot band that can stop dead for the punchline.",
+      "uses": [
+        "History stories",
+        "Fads & eras",
+        "Anniversaries"
+      ],
+      "duration": 54.6,
+      "image": "/styles-img/newsreel.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/newsreel.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/newsreel",
+      "status": "live"
+    },
+    {
+      "slug": "countdown",
+      "number": "65",
+      "name": "Live Countdown Split-screen",
+      "nameCn": "实时倒计时分屏",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "Counting Itself Down",
+      "line": "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.",
+      "summary": "An edit style, not a look. Real footage of one event with a known zero (a launch, a verdict, a final whistle, polls closing), shown in real time: screen time equals event time, a clock ticks every second, and the screen splits into more and more cells as the moment nears, every cell showing the same second. At zero the cells merge into one picture and the clock flips.",
+      "uses": [
+        "Launches",
+        "Countdowns",
+        "Live events"
+      ],
+      "duration": 59.5,
+      "image": "/styles-img/countdown.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/countdown.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/countdown",
+      "status": "live"
+    },
+    {
+      "slug": "city-symphony",
+      "number": "66",
+      "name": "Time-lapse Symphony",
+      "nameCn": "延时交响",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "One Day in New York",
+      "line": "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.",
+      "summary": "A city film cut like a piece of minimalist music: time-lapse turns traffic, crowds and clouds into rivers of light, the cuts get denser with the score's subdivisions, one thing is slowed almost to a stop, and the film ends on a hard cut to black on a downbeat. No narrator. The music carries it.",
+      "uses": [
+        "City films",
+        "Music montages",
+        "Openers"
+      ],
+      "duration": 52,
+      "image": "/styles-img/city-symphony.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/city-symphony.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/city-symphony",
+      "status": "live"
+    },
+    {
+      "slug": "visual-investigation",
+      "number": "67",
+      "name": "Visual Investigation",
+      "nameCn": "视觉调查",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "The Hindenburg: Four Minutes, 32 Seconds",
+      "line": "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.",
+      "summary": "A cold investigation desk: footage, photographs, documents, sound and maps from one real event, laid out on one shared clock so they check each other. The clock lives inside the picture — timestamps on the evidence, a playhead on a data chart, a stopwatch over the decisive seconds; frozen frames are circled and magnified; quotes are highlighted on the page they come from; a plan shows where cameras stood and where they looked; what is known and what is not are kept apart; at the end every piece of evidence is pulled into one map.",
+      "uses": [
+        "Reconstructions",
+        "Fact-checks",
+        "Incident reports"
+      ],
+      "duration": 60,
+      "image": "/styles-img/visual-investigation.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/visual-investigation.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/visual-investigation",
+      "status": "live"
+    },
+    {
+      "slug": "kino-montage",
+      "number": "68",
+      "name": "Constructivist Montage",
+      "nameCn": "构成主义蒙太奇",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "410 Days",
+      "line": "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.",
+      "summary": "Real archive footage, photographs and documents, printed as one ink-and-paper poster with a single red, and cut on a machine beat. Diagonal bands carry the type; windows cut along the axis hold the film; people are scissored out of photographs and stacked into structures; numbers count, documents are marked in red, and two images collide to make a third idea.",
+      "uses": [
+        "Industry histories",
+        "Milestones",
+        "Collective effort"
+      ],
+      "duration": 60,
+      "image": "/styles-img/kino-montage.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/kino-montage.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/kino-montage",
+      "status": "live"
+    },
+    {
+      "slug": "telestrator",
+      "number": "69",
+      "name": "Sports Telestrator",
+      "nameCn": "体育战术板",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "Freeze Frame",
+      "line": "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.",
+      "summary": "The TV football analysis segment: play the clip at full speed, rewind, freeze it, and draw on the broadcast picture — rings under players' feet, marker arrows for the ball, a red patch for the space nobody covered — then play on, switch angles, count the frames, and flatten the pitch into a board. Real match footage is the ground; every line is drawn on top of it and moves with it. A studio show's packaging (sting, corner bug, score bar, a yellow wipe) holds it together. 16:9.",
+      "uses": [
+        "Sports analysis",
+        "Match recaps",
+        "Coaching"
+      ],
+      "duration": 54.4,
+      "image": "/styles-img/telestrator.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/telestrator.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/telestrator",
+      "status": "live"
+    },
+    {
+      "slug": "news-package",
+      "number": "70",
+      "name": "Broadcast News Package",
+      "nameCn": "电视新闻包装",
+      "category": "edit-and-documentary",
+      "categoryLabel": "Edit & Documentary",
+      "film": "The Week in AI",
+      "line": "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.",
+      "summary": "A television newsroom's on-air package, built entirely in code: a sting that becomes the channel bug, a rundown of today's stories that opens and closes the bulletin, a lower-third strap that never leaves the bottom of the frame, and full-frame graphics (split-flap price boards, a line breaking a threshold, explainer maps, documents flying out of a city, quote cards, spec cards with proportion bars, stamps) that carry the facts. The style is the **package system plus its cutting rules**, not a drawing style. 16:9, a clean frame: no burned-in subtitles, no news crawl.",
+      "uses": [
+        "News round-ups",
+        "Bulletins",
+        "Market updates"
+      ],
+      "duration": 53.5,
+      "image": "/styles-img/news-package.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/news-package.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/news-package",
+      "status": "live"
+    },
+    {
+      "slug": "satellite-briefing",
+      "number": "55",
+      "name": "Satellite Briefing",
+      "nameCn": "卫星简报",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "The Map Still Says Sea",
+      "line": "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.",
+      "summary": "Real satellite imagery of a real place, graded down to an analyst's grey, with thin white measurement lines drawn on the ground: a lock-on reticle, outlines, a range line, one reading. One continuous zoom built from stacked imagery plates carries the viewer from orbit to the ground and back, and time can run inside one locked frame.",
+      "uses": [
+        "Climate",
+        "News explainers",
+        "Geography"
+      ],
+      "duration": 37.8,
+      "image": "/styles-img/satellite-briefing.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/satellite-briefing.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/satellite-briefing",
+      "status": "live"
+    },
+    {
+      "slug": "briefing-board",
+      "number": "56",
+      "name": "Engineering Briefing Board",
+      "nameCn": "工程简报板",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "The Ship Decides",
+      "line": "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.",
+      "summary": "One real whiteboard wall, filmed: window light on enamel, ghosts of erased marker, frame and tray. Cut-out photographs of real things land on it with weight; tags, magnets, a ruler and stamps are pinned to it; marker ink draws itself in three colours with fixed meanings. The camera rides the lines from fact to fact and only at the end pulls back to show the whole briefing.",
+      "uses": [
+        "Engineering",
+        "Option comparisons",
+        "Briefings"
+      ],
+      "duration": 40,
+      "image": "/styles-img/briefing-board.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/briefing-board.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/briefing-board",
+      "status": "live"
+    },
+    {
+      "slug": "lidar-survey",
+      "number": "57",
+      "name": "LiDAR Survey",
+      "nameCn": "点云测绘",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "The Fields Under the Forest",
+      "line": "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.",
+      "summary": "Real airborne laser points of a real place, floating in the dark as a measured cloud; a scan line or a cutting plane passes through them and the points condense into a solid, raking-lit surface, which is then measured with hairline instruments. One designed camera move carries the whole film: the cloud is something you fly through, not a picture you look at.",
+      "uses": [
+        "Heritage",
+        "Environment",
+        "Site surveys"
+      ],
+      "duration": 40,
+      "image": "/styles-img/lidar-survey.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/lidar-survey.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/lidar-survey",
+      "status": "live"
+    },
+    {
+      "slug": "white-model",
+      "number": "58",
+      "name": "Projection on White Model",
+      "nameCn": "白模投影",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "How a Flattened City Grew Back",
+      "line": "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.",
+      "summary": "A pure white massing model of a real place stands on a plinth in a dark room, and a projector paints data onto it as light: one layer at a time, falling on the surfaces that face it, spilling a little past the plate. The model never changes; only the light on it does.",
+      "uses": [
+        "Urban planning",
+        "Exhibitions",
+        "City data"
+      ],
+      "duration": 40,
+      "image": "/styles-img/white-model.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/white-model.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/white-model",
+      "status": "live"
+    },
+    {
+      "slug": "data-physical",
+      "number": "59",
+      "name": "Data Physicalization",
+      "nameCn": "数据实物化",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "Two Spirals",
+      "line": "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.",
+      "summary": "Real statistics built as real objects: every unit is a countable piece of material (a plate, a block, a coin, a bar) stacked to exact scale on a crafted base, shot like a product in a studio — soft key, long shadows, shallow depth of field, physically based materials. The camera reads a number at the edge of one plate, follows the data as it grows, and pulls back until the chart is an installation.",
+      "uses": [
+        "Annual reports",
+        "Investor decks",
+        "Energy data"
+      ],
+      "duration": 39.4,
+      "image": "/styles-img/data-physical.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/data-physical.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/data-physical",
+      "status": "live"
+    },
+    {
+      "slug": "teardown",
+      "number": "60",
+      "name": "Exploded Teardown",
+      "nameCn": "产品拆解",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "21 Keys, Opened",
+      "line": "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.",
+      "summary": "A real product, built from its own engineering files (CAD, PCB layout, bill of materials), lit like a studio packshot and taken apart in front of the camera: the layers lift on one axis, the camera travels between them, every part is named with the numbers its files contain, and it closes again into one object.",
+      "uses": [
+        "Hardware launches",
+        "Product pages",
+        "Spec explainers"
+      ],
+      "duration": 38.8,
+      "image": "/styles-img/teardown.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/teardown.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/teardown",
+      "status": "live"
+    },
+    {
+      "slug": "microscope",
+      "number": "61",
+      "name": "Microscope Story",
+      "nameCn": "显微叙事",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "Measured Blue",
+      "line": "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.",
+      "summary": "Real, licence-clean microscopy of a real specimen, seen as it is, and one continuous change of scale that carries the viewer from the glass slide in the hand to a single cell. Focus breathes when the magnification changes, a focal plane sweeps when the camera lands, and every scale bar, field of view and reading comes from the image's own metadata.",
+      "uses": [
+        "Biomedicine",
+        "Materials science",
+        "Skincare science"
+      ],
+      "duration": 39.5,
+      "image": "/styles-img/microscope.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/microscope.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/microscope",
+      "status": "live"
+    },
+    {
+      "slug": "archive-lighttable",
+      "number": "62",
+      "name": "Archive Light Table",
+      "nameCn": "档案灯台",
+      "category": "evidence-films",
+      "categoryLabel": "Evidence Films",
+      "film": "Two Seconds Short",
+      "line": "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.",
+      "summary": "Real archive objects (glass negatives, slides, letters, telegrams, clippings, drawings) lie on a cool, backlit light table. A loupe comes down on one of them, and inside the glass the object comes alive: a negative turns positive, a line of type lights up, a number lifts off the page, a photograph opens into depth. Precise catalogue numbers, dates and readings are pinned to the objects. Clean, modern and quiet, with no vintage filter.",
+      "uses": [
+        "Brand history",
+        "Archive stories",
+        "Museums"
+      ],
+      "duration": 40,
+      "image": "/styles-img/archive-lighttable.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/archive-lighttable.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/archive-lighttable",
+      "status": "live"
+    },
+    {
+      "slug": "crayon-book",
+      "number": "01",
+      "name": "Crayon Picture Book",
+      "nameCn": "蜡笔儿童绘本",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "The Moon Can't Sleep",
+      "line": "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.",
+      "summary": "A picture-book page drawn live in wax crayon on toothy paper, with a watercolour wash that reveals what the crayon was hiding.",
+      "uses": [
+        "Picture books",
+        "Bedtime stories",
+        "Kids' learning"
+      ],
+      "duration": 52,
+      "image": "/styles-img/crayon-book.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/crayon-book.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/crayon-book",
+      "status": "live"
+    },
+    {
+      "slug": "watercolor",
+      "number": "02",
+      "name": "Watercolor Brush",
+      "nameCn": "水彩笔刷",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "Follow the Rain",
+      "line": "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.",
+      "summary": "A hand-painted journal page that paints itself: translucent brush strokes with dry-brush flying white on warm cotton paper, hand-written notes beside what is painted, nothing drawn with a vector line.",
+      "uses": [
+        "Nature documentary",
+        "Travel",
+        "Science explainers"
+      ],
+      "duration": 113.6,
+      "image": "/styles-img/watercolor.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/watercolor.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/watercolor",
+      "status": "live"
+    },
+    {
+      "slug": "ink-wash",
+      "number": "03",
+      "name": "Chinese Ink Wash",
+      "nameCn": "中国水墨",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "The Swordsman and the River",
+      "line": "A swordsman crosses the river on the water and splits the current with a single stroke.",
+      "summary": "Xieyi ink painting on rice paper, animated: blank paper is space, one brushstroke is a mountain, a wave, a gesture or a cut.",
+      "uses": [
+        "Wuxia",
+        "Cultural brands",
+        "Poetry"
+      ],
+      "duration": 48,
+      "image": "/styles-img/ink-wash.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ink-wash.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/ink-wash",
+      "status": "live"
+    },
+    {
+      "slug": "impasto",
+      "number": "04",
+      "name": "Impasto Oil Painting",
+      "nameCn": "油画厚涂",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "The Colour of Rain",
+      "line": "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.",
+      "summary": "Thick oil paint laid with a palette knife: big, flat, sharp-edged planes of colour, raked by light so every ridge of paint shows. Clarity first: value structure before texture, hard edges at the focus, calm planes everywhere else.",
+      "uses": [
+        "Music videos",
+        "Art & culture",
+        "Emotional ads"
+      ],
+      "duration": 39.7,
+      "image": "/styles-img/impasto.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/impasto.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/impasto",
+      "status": "live"
+    },
+    {
+      "slug": "one-line",
+      "number": "05",
+      "name": "One-line Drawing",
+      "nameCn": "一笔画",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "The Line That Never Lifted",
+      "line": "One unbroken line draws a whole life, then the pen passes to a child.",
+      "summary": "A single ink line that never leaves the paper. Everything on screen is that one line being drawn; scenes don't cut, they morph.",
+      "uses": [
+        "Brand stories",
+        "Life milestones",
+        "Minimal ads"
+      ],
+      "duration": 47.5,
+      "image": "/styles-img/one-line.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/one-line.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line",
+      "status": "live"
+    },
+    {
+      "slug": "whiteboard",
+      "number": "06",
+      "name": "Whiteboard Explainer",
+      "nameCn": "白板讲解",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "Einstein in Your Pocket",
+      "line": "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.",
+      "summary": "An explainer drawn live on one glossy dry-erase board: single-line handwriting that is actually *written* stroke by stroke, floating markers with no hand, magnets that can move, an eraser that can rewind, and a camera that travels across the board instead of cutting.",
+      "uses": [
+        "Explainers",
+        "Online courses",
+        "Science"
+      ],
+      "duration": 111,
+      "image": "/styles-img/whiteboard.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/whiteboard.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/whiteboard",
+      "status": "live"
+    },
+    {
+      "slug": "urban-sketch",
+      "number": "45",
+      "name": "Urban Sketch · Pen & Wash",
+      "nameCn": "钢笔淡彩",
+      "category": "hand-drawn-and-painting",
+      "categoryLabel": "Hand-drawn & Painting",
+      "film": "Where the Wind Went",
+      "line": "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.",
+      "summary": "A sketchbook page drawn on location: fine sepia fineliner lines that wobble, overshoot and never quite close, with loose transparent watercolour dropped on top. The colour sits slightly off the lines, spills over them, and dissolves into cream cold-press paper at the page edge.",
+      "uses": [
+        "City & travel",
+        "Architecture",
+        "Lifestyle brands"
+      ],
+      "duration": 32.4,
+      "image": "/styles-img/urban-sketch.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/urban-sketch.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/urban-sketch",
+      "status": "live"
+    },
+    {
+      "slug": "shadow-puppet",
+      "number": "07",
+      "name": "Shadow Puppetry",
+      "nameCn": "皮影戏",
+      "category": "east-asian-traditions",
+      "categoryLabel": "East Asian Traditions",
+      "film": "Hou Yi Shoots the Suns",
+      "line": "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.",
+      "summary": "Chinese shadow theatre: translucent dyed-hide puppets, carved like lace, pressed against a cotton screen and lit from behind by oil lamps.",
+      "uses": [
+        "Myths & folklore",
+        "Heritage",
+        "Festivals"
+      ],
+      "duration": 54.4,
+      "image": "/styles-img/shadow-puppet.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/shadow-puppet.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/shadow-puppet",
+      "status": "live"
+    },
+    {
+      "slug": "ukiyoe",
+      "number": "08",
+      "name": "Ukiyo-e",
+      "nameCn": "浮世绘",
+      "category": "east-asian-traditions",
+      "categoryLabel": "East Asian Traditions",
+      "film": "Toward the Mountain",
+      "line": "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.",
+      "summary": "Edo-period woodblock prints brought to life: flat colour blocks, carved ink lines, bokashi skies, paper you can feel, and a camera that moves over the print like an unrolling handscroll.",
+      "uses": [
+        "Travel",
+        "Japanese culture",
+        "Poetry"
+      ],
+      "duration": 44,
+      "image": "/styles-img/ukiyoe.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ukiyoe.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/ukiyoe",
+      "status": "live"
+    },
+    {
+      "slug": "papercut-red",
+      "number": "09",
+      "name": "Red Paper-cut",
+      "nameCn": "红色窗花剪纸",
+      "category": "east-asian-traditions",
+      "categoryLabel": "East Asian Traditions",
+      "film": "Nian Comes to Town",
+      "line": "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.",
+      "summary": "Chinese window-flower paper-cuts brought to life: jointed red cut-outs on paper grounds, where the cut *is* the drawing and the holes are where the light gets in.",
+      "uses": [
+        "Lunar New Year",
+        "Festive greetings",
+        "Folk tales"
+      ],
+      "duration": 49,
+      "image": "/styles-img/papercut-red.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/papercut-red.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/papercut-red",
+      "status": "live"
+    },
+    {
+      "slug": "paper-lantern",
+      "number": "10",
+      "name": "Paper-cut Lightbox",
+      "nameCn": "纸雕灯影",
+      "category": "east-asian-traditions",
+      "categoryLabel": "East Asian Traditions",
+      "film": "A Mooncake's Longing",
+      "line": "A single mooncake tells the Mid-Autumn story of reunion and longing inside a glowing paper-cut lightbox.",
+      "summary": "A layered paper-cut shadow box (纸雕灯) lit from behind: 6–9 sheets of cut card stacked in a shallow box, a warm light glowing through the paper, windows and moons burning through holes, soft shadows falling from each layer onto the next. The frame is the box; the camera is a macro lens inside a lamp.",
+      "uses": [
+        "Festivals",
+        "Gift brands",
+        "Cultural stories"
+      ],
+      "duration": 121.8,
+      "image": "/styles-img/paper-lantern.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/paper-lantern.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/paper-lantern",
+      "status": "live"
+    },
+    {
+      "slug": "risograph",
+      "number": "12",
+      "name": "Risograph Print",
+      "nameCn": "Risograph 孔版印刷",
+      "category": "print-and-printmaking",
+      "categoryLabel": "Print & Printmaking",
+      "film": "Sunday Ride",
+      "line": "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.",
+      "summary": "Animation that looks printed, frame by frame, on a stencil duplicator: two or three translucent spot inks overprinted on warm paper, halftone dots, ink grain, and plates that never quite line up.",
+      "uses": [
+        "Indie brands",
+        "Zines",
+        "Lifestyle"
+      ],
+      "duration": 40,
+      "image": "/styles-img/risograph.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/risograph.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph",
+      "status": "live"
+    },
+    {
+      "slug": "halftone-dossier",
+      "number": "13",
+      "name": "Halftone Dossier",
+      "nameCn": "复古半调案卷",
+      "category": "print-and-printmaking",
+      "categoryLabel": "Print & Printmaking",
+      "film": "Case File: Chubby",
+      "line": "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.",
+      "summary": "A retro print case file: cream archive paper, overprinted halftone dots in a few flat inks, huge heavy headlines with misregistered shadows, rubber stamps that slam, and thick-outlined characters. The film is a file that is read out one exhibit at a time.",
+      "uses": [
+        "Humour",
+        "Pet content",
+        "Social shorts"
+      ],
+      "duration": 30,
+      "image": "/styles-img/halftone-dossier.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/halftone-dossier.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/halftone-dossier",
+      "status": "live"
+    },
+    {
+      "slug": "woodcut",
+      "number": "15",
+      "name": "Woodcut Print",
+      "nameCn": "木刻版画",
+      "category": "print-and-printmaking",
+      "categoryLabel": "Print & Printmaking",
+      "film": "The Bell Founder",
+      "line": "A village spends a whole winter casting one bell; the first time it rings, the snow stops.",
+      "summary": "A relief print that carves itself: every frame is a black wood block, and light only exists where a knife has cut it away. One colour at most, and only for the thing that burns.",
+      "uses": [
+        "Folk tales",
+        "Craft brands",
+        "Book trailers"
+      ],
+      "duration": 58.5,
+      "image": "/styles-img/woodcut.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/woodcut.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/woodcut",
+      "status": "live"
+    },
+    {
+      "slug": "engraving",
+      "number": "53",
+      "name": "Copperplate Engraving",
+      "nameCn": "铜版画",
+      "category": "print-and-printmaking",
+      "categoryLabel": "Print & Printmaking",
+      "film": "The Honeybee, Plate VII",
+      "line": "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.",
+      "summary": "An intaglio plate that engraves itself: a burin cuts swelling lines into copper, a proof is pulled, and the figure builds up — outline, hatching, cross-hatching — until engraved lettering, magnified details and a hand-laid wash make a finished plate.",
+      "uses": [
+        "Museum labels",
+        "Science explainers",
+        "Brand heritage"
+      ],
+      "duration": 40,
+      "image": "/styles-img/engraving.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/engraving.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/engraving",
+      "status": "live"
+    },
+    {
+      "slug": "silkscreen-poster",
+      "number": "54",
+      "name": "Silkscreen Travel Poster",
+      "nameCn": "丝印旅行海报",
+      "category": "print-and-printmaking",
+      "categoryLabel": "Print & Printmaking",
+      "film": "Three Trails",
+      "line": "Three trail posters are screen-printed one ink at a time, then climbed in one long take from noon to dusk.",
+      "summary": "Opaque, hard-edged flat inks pulled one colour at a time through a screen: 4–6 inks per poster, stepped colour bands instead of gradients, thin paper-white gaps where the registration slips. Information is revealed the way the print is made: one layer, one beat.",
+      "uses": [
+        "Destination guides",
+        "Tourism",
+        "Event posters"
+      ],
+      "duration": 38.4,
+      "image": "/styles-img/silkscreen-poster.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/silkscreen-poster.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/silkscreen-poster",
+      "status": "live"
+    },
+    {
+      "slug": "swiss-motion",
+      "number": "16",
+      "name": "Swiss Motion Graphics",
+      "nameCn": "瑞士动态排版",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "Five Rules for a Poster",
+      "line": "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.",
+      "summary": "International Typographic Style in motion: a modular grid, one typeface, one signal colour, and movement as exact as a printing press.",
+      "uses": [
+        "Brand identity",
+        "Events",
+        "Design education"
+      ],
+      "duration": 44,
+      "image": "/styles-img/swiss-motion.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/swiss-motion.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/swiss-motion",
+      "status": "live"
+    },
+    {
+      "slug": "spy-titles",
+      "number": "17",
+      "name": "60s Spy Title Sequence",
+      "nameCn": "60s 间谍片头",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "The Velvet Cipher",
+      "line": "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.",
+      "summary": "A cut-paper, four-ink opening title sequence for a film that never existed: silhouettes move through sets built out of the credits themselves, every brass stab is a cut, and a title is assembled from the pieces.",
+      "uses": [
+        "Title sequences",
+        "Event openers",
+        "Trailers"
+      ],
+      "duration": 44.1,
+      "image": "/styles-img/spy-titles.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/spy-titles.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/spy-titles",
+      "status": "live"
+    },
+    {
+      "slug": "art-deco",
+      "number": "18",
+      "name": "Art Deco",
+      "nameCn": "装饰艺术",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "Midnight at the Starlight Hotel",
+      "line": "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.",
+      "summary": "Black lacquer, engraved gold line and airbrushed geometry: a 1930s poster that moves. Every composition has a centre axis, transitions open or close along it, and light arrives as bulbs switching on one by one.",
+      "uses": [
+        "Luxury & hospitality",
+        "Galas",
+        "Invitations"
+      ],
+      "duration": 58.4,
+      "image": "/styles-img/art-deco.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/art-deco.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/art-deco",
+      "status": "live"
+    },
+    {
+      "slug": "blueprint",
+      "number": "19",
+      "name": "Blueprint",
+      "nameCn": "蓝图 / 工程制图",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "Patent Pending: The Cloud Catcher",
+      "line": "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.",
+      "summary": "Engineering drawings that come alive on a sheet of cyanotype paper: white technical line work on Prussian blue, drawn in drafting order, with annotations that move.",
+      "uses": [
+        "Engineering",
+        "Hardware launches",
+        "Tech explainers"
+      ],
+      "duration": 46.7,
+      "image": "/styles-img/blueprint.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/blueprint.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/blueprint",
+      "status": "live"
+    },
+    {
+      "slug": "stained-glass",
+      "number": "20",
+      "name": "Stained Glass",
+      "nameCn": "彩色玻璃窗",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "The Dragon of the East Window",
+      "line": "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.",
+      "summary": "A medieval stained-glass window seen from inside a dark stone hall, alive only where the sun touches it: light is the clock, the camera and the story.",
+      "uses": [
+        "Legends",
+        "Heritage",
+        "Holiday stories"
+      ],
+      "duration": 56.5,
+      "image": "/styles-img/stained-glass.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/stained-glass.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/stained-glass",
+      "status": "live"
+    },
+    {
+      "slug": "pictogram-motion",
+      "number": "21",
+      "name": "Pictogram Motion",
+      "nameCn": "象形运动图形",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "Aichi-Nagoya 2026 — All 43 Sports",
+      "line": "All 43 sports of the 2026 Asian Games as beat-locked geometric pictograms.",
+      "summary": "A beat-locked flash-card film built from three things only: a **square-grid \"core graphic\"** of circles, half-discs and tiny patterned cells whose rows slide past each other; **geometric pictograms** made of round-capped bars and a disc head; and **bold bilingual type** that slides up out of masks. Every cut lands on a drum hit.",
+      "uses": [
+        "Sports events",
+        "Visual identity",
+        "Event openers"
+      ],
+      "duration": 163.6,
+      "image": "/styles-img/pictogram-motion.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/pictogram-motion.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/pictogram-motion",
+      "status": "live"
+    },
+    {
+      "slug": "ascii-crt",
+      "number": "22",
+      "name": "ASCII / CRT Terminal",
+      "nameCn": "ASCII / CRT 终端",
+      "category": "graphic-and-type",
+      "categoryLabel": "Graphic & Type",
+      "film": "Tranquility.log",
+      "line": "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.",
+      "summary": "Everything on screen is a real character on a monospace grid, lit by the phosphor of an old monochrome CRT.",
+      "uses": [
+        "Developer tools",
+        "Sci-fi",
+        "Tech brands"
+      ],
+      "duration": 59.8,
+      "image": "/styles-img/ascii-crt.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/ascii-crt.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/ascii-crt",
+      "status": "live"
+    },
+    {
+      "slug": "dataviz",
+      "number": "23",
+      "name": "Data Storytelling",
+      "nameCn": "数据叙事",
+      "category": "information-and-keynote",
+      "categoryLabel": "Information & Keynote",
+      "film": "A Hundred Summers",
+      "line": "A hundred years of summer temperatures, where the chart itself tells the story.",
+      "summary": "A chart that tells a story: real data, drawn mark by mark on cream paper by a red–blue pencil, with handwritten notes pinned to the numbers. The chart itself is the camera, the rhythm and the plot.",
+      "uses": [
+        "Data journalism",
+        "Reports",
+        "Climate & science"
+      ],
+      "duration": 50,
+      "image": "/styles-img/dataviz.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/dataviz.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/dataviz",
+      "status": "live"
+    },
+    {
+      "slug": "iso-infographic",
+      "number": "24",
+      "name": "Isometric Infographic",
+      "nameCn": "等距信息图",
+      "category": "information-and-keynote",
+      "categoryLabel": "Information & Keynote",
+      "film": "From Bean to Cup",
+      "line": "A coffee's journey from the plantation to your hands, across one isometric world.",
+      "summary": "A system diagram comes alive: an isometric diorama of flat three-tone blocks, thin ink labels and Isotype numbers, where things open up to show their insides and the numbers are drawn, not stated.",
+      "uses": [
+        "Process explainers",
+        "Supply chains",
+        "Annual reports"
+      ],
+      "duration": 58.8,
+      "image": "/styles-img/iso-infographic.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/iso-infographic.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/iso-infographic",
+      "status": "live"
+    },
+    {
+      "slug": "dark-keynote",
+      "number": "25",
+      "name": "Dark Tech Keynote",
+      "nameCn": "暗色科技发布",
+      "category": "information-and-keynote",
+      "categoryLabel": "Information & Keynote",
+      "film": "Room to Think",
+      "line": "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.",
+      "summary": "A software launch film where the interface itself is the star: near-black gradient, hairline grid, soft light, one brand accent, and UI that moves with snap-grid precision. Light reveals, one giant number, and a sound design that is as ordered as the pixels.",
+      "uses": [
+        "Product launches",
+        "SaaS",
+        "Keynotes"
+      ],
+      "duration": 42,
+      "image": "/styles-img/dark-keynote.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/dark-keynote.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/dark-keynote",
+      "status": "live"
+    },
+    {
+      "slug": "living-screencast",
+      "number": "46",
+      "name": "Living Screencast",
+      "nameCn": "活体实机录屏",
+      "category": "information-and-keynote",
+      "categoryLabel": "Information & Keynote",
+      "film": "Clawd Moves In",
+      "line": "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.",
+      "summary": "A product walkthrough that looks like a real screen recording, where a low-resolution mascot lives inside a high-resolution interface and acts out what the software is doing.",
+      "uses": [
+        "Product tutorials",
+        "Feature launches",
+        "Onboarding"
+      ],
+      "duration": 59.4,
+      "image": "/styles-img/living-screencast.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/living-screencast.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/living-screencast",
+      "status": "live"
+    },
+    {
+      "slug": "hologram-hud",
+      "number": "52",
+      "name": "Sci-fi Hologram HUD",
+      "nameCn": "科幻全息界面",
+      "category": "information-and-keynote",
+      "categoryLabel": "Information & Keynote",
+      "film": "Volt · Spec Scan",
+      "line": "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.",
+      "summary": "An object is scanned into a glowing wireframe. Target boxes lock onto its parts; each opens in a local exploded view, a leader pulls out, and its number rolls from garbage glyphs into the real value. It may light up, once, into a solid hologram.",
+      "uses": [
+        "Spec walkthroughs",
+        "Launch videos",
+        "Trade shows"
+      ],
+      "duration": 39,
+      "image": "/styles-img/hologram-hud.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/hologram-hud.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/hologram-hud",
+      "status": "live"
+    },
+    {
+      "slug": "rubber-hose",
+      "number": "26",
+      "name": "1930s Rubber Hose Cartoon",
+      "nameCn": "1930s 橡皮管卡通",
+      "category": "cartoon-and-anime",
+      "categoryLabel": "Cartoon & Anime",
+      "film": "Coffee Cup Chase",
+      "line": "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.",
+      "summary": "Black-and-white hand-inked cartoons where every object is alive and swings to a hot jazz band.",
+      "uses": [
+        "Food & drink",
+        "Retro ads",
+        "Kids"
+      ],
+      "duration": 50,
+      "image": "/styles-img/rubber-hose.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/rubber-hose.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/rubber-hose",
+      "status": "live"
+    },
+    {
+      "slug": "cel-anime-80s",
+      "number": "27",
+      "name": "80s Cel Anime",
+      "nameCn": "80 年代赛璐璐动画",
+      "category": "cartoon-and-anime",
+      "categoryLabel": "Cartoon & Anime",
+      "film": "City Lights, 1987",
+      "line": "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.",
+      "summary": "Hand-painted cel animation from the golden age of Japanese OVAs, re-created in code: flat two-tone cels over airbrushed backgrounds, backlit neon, limited-animation timing, played back as a late-80s videotape on a CRT television.",
+      "uses": [
+        "Music videos",
+        "Game trailers",
+        "Nostalgia"
+      ],
+      "duration": 59,
+      "image": "/styles-img/cel-anime-80s.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/cel-anime-80s.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/cel-anime-80s",
+      "status": "live"
+    },
+    {
+      "slug": "scifi-toon",
+      "number": "28",
+      "name": "Sci-Fi Sitcom Toon",
+      "nameCn": "科幻情景喜剧卡通",
+      "category": "cartoon-and-anime",
+      "categoryLabel": "Cartoon & Anime",
+      "film": "Coffee Run",
+      "line": "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.",
+      "summary": "Adult-animation sci-fi sitcom: thick boiling outlines, flat colour, a duo whose reactions don't match, a glowing portal, and one palette per world.",
+      "uses": [
+        "Comedy",
+        "Tech brands",
+        "Social shorts"
+      ],
+      "duration": 57.5,
+      "image": "/styles-img/scifi-toon.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/scifi-toon.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/scifi-toon",
+      "status": "live"
+    },
+    {
+      "slug": "midcentury-toon",
+      "number": "48",
+      "name": "Mid-century Cartoon",
+      "nameCn": "50s 扁平卡通",
+      "category": "cartoon-and-anime",
+      "categoryLabel": "Cartoon & Anime",
+      "film": "Meet Pip",
+      "line": "A robot vacuum set up in three steps, told like a 1950s classroom film.",
+      "summary": "1950s flat colour and limited animation for \"follow along\" films: colour printed a few pixels off its broken ink line, bodies that hold still while hands do the work, abstract colour-block rooms, a calm classroom narrator, and a cool-jazz combo.",
+      "uses": [
+        "Set-up guides",
+        "Help centres",
+        "How-to"
+      ],
+      "duration": 40,
+      "image": "/styles-img/midcentury-toon.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/midcentury-toon.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon",
+      "status": "live"
+    },
+    {
+      "slug": "pixel-rpg",
+      "number": "29",
+      "name": "16-bit Pixel RPG",
+      "nameCn": "16-bit 像素 RPG",
+      "category": "games",
+      "categoryLabel": "Games",
+      "film": "The Last Save Point",
+      "line": "At the final boss door a hero saves the game, and the save screen replays the whole journey.",
+      "summary": "A short film that looks, sounds and *behaves* like a mid-90s console role-playing game: 320×180 pixels, a limited indexed palette, text boxes that type, menus, save files, chip music with echo.",
+      "uses": [
+        "Game trailers",
+        "Recaps",
+        "Nostalgia"
+      ],
+      "duration": 54.5,
+      "image": "/styles-img/pixel-rpg.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/pixel-rpg.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/pixel-rpg",
+      "status": "live"
+    },
+    {
+      "slug": "hd-2d",
+      "number": "31",
+      "name": "HD-2D",
+      "nameCn": "HD-2D",
+      "category": "games",
+      "categoryLabel": "Games",
+      "film": "The Lampbearer",
+      "line": "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.",
+      "summary": "Hand-made pixel sprites standing like paper cut-outs inside a lit, fogged, fully 3D diorama, shot from a high three-quarter angle through a tilt-shift lens: a toy world where every lamp throws a real shadow.",
+      "uses": [
+        "Game trailers",
+        "Fantasy",
+        "Story films"
+      ],
+      "duration": 76.5,
+      "image": "/styles-img/hd-2d.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/hd-2d.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/hd-2d",
+      "status": "live"
+    },
+    {
+      "slug": "microgame",
+      "number": "32",
+      "name": "Microgame Frenzy",
+      "nameCn": "微游戏快闪",
+      "category": "games",
+      "categoryLabel": "Games",
+      "film": "Five-Second Astronaut",
+      "line": "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.",
+      "summary": "A rapid-fire party-game film: one command word, a few seconds, one action. Every microgame is drawn in a completely different art style, and the film keeps getting faster.",
+      "uses": [
+        "Game trailers",
+        "Onboarding",
+        "Social shorts"
+      ],
+      "duration": 59.8,
+      "image": "/styles-img/microgame.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/microgame.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/microgame",
+      "status": "live"
+    },
+    {
+      "slug": "game-show",
+      "number": "33",
+      "name": "Game Show Flat",
+      "nameCn": "综艺节奏扁平",
+      "category": "games",
+      "categoryLabel": "Games",
+      "film": "Rhythm of AI, 1997 → 2026",
+      "line": "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.",
+      "summary": "A rhythm-game variety show in flat vector: toy-like mascots with thick ink outlines on candy-coloured stripes and sunbursts, every hit landing on a fixed tempo grid, call-and-response patterns, and a judgement word when each round is won.",
+      "uses": [
+        "Tech timelines",
+        "Year in review",
+        "Variety shows"
+      ],
+      "duration": 148.8,
+      "image": "/styles-img/game-show.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/game-show.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/game-show",
+      "status": "live"
+    },
+    {
+      "slug": "silent-film",
+      "number": "34",
+      "name": "1920s Silent Film",
+      "nameCn": "1920s 默片",
+      "category": "cinema-and-eras",
+      "categoryLabel": "Cinema & Eras",
+      "film": "The Runaway Loaf",
+      "line": "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.",
+      "summary": "An engraved-illustration silent film projected in a picture house: ink line and silver wash, a 4:3 print that flickers and weaves between velvet curtains, intertitles instead of voices, and a cinema pianist who plays every beat.",
+      "uses": [
+        "Comedy",
+        "Retro brands",
+        "Silent storytelling"
+      ],
+      "duration": 54.2,
+      "image": "/styles-img/silent-film.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/silent-film.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/silent-film",
+      "status": "live"
+    },
+    {
+      "slug": "backrooms",
+      "number": "36",
+      "name": "Liminal Found Footage",
+      "nameCn": "后室 / 新怪谈",
+      "category": "cinema-and-eras",
+      "categoryLabel": "Cinema & Eras",
+      "film": "Night Shift Orientation",
+      "line": "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.",
+      "summary": "Camcorder tapes recovered from empty, endless, fluorescent-lit spaces. Rules instead of monsters.",
+      "uses": [
+        "Horror",
+        "Mystery & ARG",
+        "Game teasers"
+      ],
+      "duration": 59.7,
+      "image": "/styles-img/backrooms.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/backrooms.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/backrooms",
+      "status": "live"
+    },
+    {
+      "slug": "brick-toy",
+      "number": "37",
+      "name": "Brick Toy",
+      "nameCn": "积木玩具",
+      "category": "materials-and-3d",
+      "categoryLabel": "Materials & 3D",
+      "film": "Rocket from Spare Parts",
+      "line": "A brick astronaut builds a rocket from spare parts and flies to a brick moon.",
+      "summary": "Stop-motion toy-brick films shot like macro photography on a real desk: a world built from interlocking plastic bricks with round studs, animated a pose at a time.",
+      "uses": [
+        "Toys & kids",
+        "Product builds",
+        "Space"
+      ],
+      "duration": 54,
+      "image": "/styles-img/brick-toy.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/brick-toy.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/brick-toy",
+      "status": "live"
+    },
+    {
+      "slug": "paper-popup",
+      "number": "41",
+      "name": "Paper Pop-up Book",
+      "nameCn": "纸片立体书",
+      "category": "materials-and-3d",
+      "categoryLabel": "Materials & 3D",
+      "film": "Pip's Paper Adventure",
+      "line": "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.",
+      "summary": "A pop-up book on a real desk becomes a stage: flat cut-paper actors with white borders perform in front of paper sets that spring up from the page, under real lamp light and a real macro lens.",
+      "uses": [
+        "Children's books",
+        "Game trailers",
+        "Story films"
+      ],
+      "duration": 133,
+      "image": "/styles-img/paper-popup.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/paper-popup.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/paper-popup",
+      "status": "live"
+    },
+    {
+      "slug": "tilt-shift",
+      "number": "42",
+      "name": "Tilt-Shift Miniature",
+      "nameCn": "移轴微缩",
+      "category": "materials-and-3d",
+      "categoryLabel": "Materials & 3D",
+      "film": "Toy Town Rush Hour",
+      "line": "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.",
+      "summary": "A real-looking place photographed from high above with a tilted lens and a time-lapse camera, so the whole world reads as a tabletop model.",
+      "uses": [
+        "City promos",
+        "Real estate",
+        "Transport"
+      ],
+      "duration": 38,
+      "image": "/styles-img/tilt-shift.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/tilt-shift.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/tilt-shift",
+      "status": "live"
+    },
+    {
+      "slug": "lowpoly-island",
+      "number": "43",
+      "name": "Low-poly Isometric Island",
+      "nameCn": "低多边形等距",
+      "category": "materials-and-3d",
+      "categoryLabel": "Materials & 3D",
+      "film": "The Island That Grew",
+      "line": "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.",
+      "summary": "A tiny faceted world seen through an orthographic isometric lens: everything is a geometric block, and everything that appears arrives with a bounce and a note.",
+      "uses": [
+        "Game trailers",
+        "World building",
+        "Calm content"
+      ],
+      "duration": 53,
+      "image": "/styles-img/lowpoly-island.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/lowpoly-island.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/lowpoly-island",
+      "status": "live"
+    },
+    {
+      "slug": "glass-product",
+      "number": "44",
+      "name": "Glass Product Render",
+      "nameCn": "玻璃质感产品",
+      "category": "materials-and-3d",
+      "categoryLabel": "Materials & 3D",
+      "film": "Aura — Hear the Light",
+      "line": "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.",
+      "summary": "Launch-film product rendering in transparent and frosted glass: a dark-field studio, strip-light sweeps, dispersion, caustics, light travelling inside the object, slow exploded views that snap shut on a downbeat.",
+      "uses": [
+        "Product launches",
+        "Consumer tech",
+        "Beauty"
+      ],
+      "duration": 32,
+      "image": "/styles-img/glass-product.jpg",
+      "video": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/glass-product.mp4",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product",
+      "status": "live"
+    }
+  ]
+}

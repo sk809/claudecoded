@@ -1,0 +1,19 @@
+{
+  "name": "claudecodes",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ClaudeCodes: faceless videos made end to end by Claude, in any style.",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "import-styles": "node scripts/import-styles.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "marked": "^12.0.2"
+  }
+}
