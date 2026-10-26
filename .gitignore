@@ -1,4 +1,4 @@
-node_modules/
-data/*.db
-data/*.db-*
+node_modules
+dist
 .env
+.env.local

@@ -1,16 +1,17 @@
 #!/usr/bin/env node
 // Imports the style library from a local checkout of lemomo-ai/lemo-opuscar.
 //
-//   node scripts/import-styles.js /path/to/lemo-opuscar
+//   npm run import-styles -- /path/to/lemo-opuscar
 //
-// Writes data/styles.json, copies each style guide to data/guides/<slug>.md and
+// Writes src/data/styles.json, copies each style guide to src/data/guides/<slug>.md and
 // a preview still to public/styles-img/<slug>.jpg (resized to 640px when ffmpeg
 // is available). Demo films stay on the source repo's GitHub release.
-"use strict";
+import fs from "node:fs";
+import path from "node:path";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 
-const fs = require("node:fs");
-const path = require("node:path");
-const { spawnSync } = require("node:child_process");
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SOURCE_REPO = "lemomo-ai/lemo-opuscar";
 const FILMS_URL = `https://github.com/${SOURCE_REPO}/releases/download/films`;
@@ -26,7 +27,7 @@ if (!fs.existsSync(catalogPath)) {
 const slugify = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const hasFfmpeg = spawnSync("ffmpeg", ["-version"]).status === 0;
 
-const guidesDir = path.join(ROOT, "data", "guides");
+const guidesDir = path.join(ROOT, "src", "data", "guides");
 const imgDir = path.join(ROOT, "public", "styles-img");
 fs.mkdirSync(guidesDir, { recursive: true });
 fs.mkdirSync(imgDir, { recursive: true });
@@ -89,5 +90,5 @@ const out = {
   categories,
   styles
 };
-fs.writeFileSync(path.join(ROOT, "data", "styles.json"), JSON.stringify(out, null, 2) + "\n");
+fs.writeFileSync(path.join(ROOT, "src", "data", "styles.json"), JSON.stringify(out, null, 2) + "\n");
 console.log(`Imported ${styles.length} styles in ${categories.length} categories${hasFfmpeg ? "" : " (ffmpeg not found, stills copied at full size)"}.`);

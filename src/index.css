@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Layout: one centered 1180px column; full-width dark bands, cards only where a thing is a separate object (style clips, plans). */
 :root {
   /* Palette, approximated from nexlev.io: deep indigo-black ground, violet primary, electric blue secondary. Edit here to retune the whole site. */

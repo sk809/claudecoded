@@ -2,34 +2,46 @@
 
 A website for faceless videos made end to end by Claude, with a gallery of every video style Claude can make.
 
+Built with React, Vite, TypeScript and Tailwind, with Supabase for accounts, so it runs in [Lovable](https://lovable.dev).
+
 The styles come from [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) by LemoLab: 59 styles, each with a demo film, a still and a style guide. Code there is MIT; demo films and stills are CC BY 4.0, credited on every page.
 
-## Run it
+## Turn on accounts (once)
 
-Needs Node 22.5 or newer (uses the built-in `node:sqlite`).
+1. In Lovable, connect Supabase (the Supabase button at the top right). Lovable adds `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` for you.
+2. Run the SQL in `supabase/migrations/20261026000000_saved_styles.sql` (Lovable offers to, or paste it into the Supabase SQL editor). It creates the `saved_styles` table with row-level security so each person only sees their own saved styles.
+3. Optional: in Supabase, Authentication > Providers > Email, turn off "Confirm email" if you want people logged in straight after signing up.
+
+Until Supabase is connected, the site works for browsing and the login pages say accounts aren't switched on yet.
+
+## Run locally
 
 ```sh
 npm install
-npm start            # http://localhost:3000
-npm test             # API tests: sign up, log in, sessions, saved styles, styles API
+cp .env.example .env   # add your Supabase URL and anon key
+npm run dev            # http://localhost:8080
 ```
 
-Set `PORT`, `DB_PATH` (default `data/claudecodes.db`) and `NODE_ENV=production` (secure cookies, needs HTTPS) as needed.
-
-## What's here
+## What's where
 
 | Path | What it does |
 |---|---|
-| `server/index.js` | Express app: styles API, saved styles, page routes |
-| `server/auth.js` | Sign up, log in, log out, `/api/auth/me`. Passwords hashed with scrypt; sessions are random tokens in an httpOnly cookie, only their SHA-256 stored |
-| `server/db.js` | SQLite tables: `users`, `sessions`, `favorites` |
-| `scripts/import-styles.js` | Rebuilds `data/styles.json`, `data/guides/*.md` and `public/styles-img/*.jpg` from a lemo-opuscar checkout |
-| `public/` | Home page with the styles gallery, style pages, log in, sign up, account |
+| `src/pages/Home.tsx` | Landing page and the styles gallery (one box per style, filters, search) |
+| `src/pages/StylePage.tsx` | One style: demo film, summary, full guide for logged-in users, save button |
+| `src/pages/AuthPage.tsx` | Log in and sign up |
+| `src/pages/Account.tsx` | Profile, saved styles, log out |
+| `src/hooks/useAuth.tsx` | Supabase session for the whole app |
+| `src/hooks/useSavedStyles.ts` | Reads and changes the `saved_styles` table |
+| `src/data/styles.json`, `src/data/guides/` | Imported style catalogue and guides |
+| `public/styles-img/` | Preview stills |
+| `src/index.css` | Design tokens (colours, fonts) and all component styles |
 
 ## Access rules
 
 - Anyone can browse the gallery and watch every demo film.
-- A free account unlocks each style's full guide and lets people save styles to their account.
+- A free account unlocks each style's full guide and lets people save styles.
+
+The guide text ships with the site, so hiding it is a nudge to sign up rather than real protection.
 
 ## Updating the styles
 
@@ -40,19 +52,4 @@ npm run import-styles -- ../lemo-opuscar
 
 Demo films stream from that repo's `films` GitHub release, so they aren't copied here.
 
-## API
-
-| Method | Path | Auth |
-|---|---|---|
-| POST | `/api/auth/signup` `{name, email, password}` | |
-| POST | `/api/auth/login` `{email, password}` | |
-| POST | `/api/auth/logout` | |
-| GET | `/api/auth/me` | |
-| GET | `/api/styles` | |
-| GET | `/api/styles/:slug` (guide included when logged in) | |
-| GET | `/api/me/favorites` | required |
-| POST / DELETE | `/api/me/favorites/:slug` | required |
-
-## Deploy
-
-`render.yaml` deploys the site on [Render](https://render.com): New > Blueprint, pick this repo. It runs on the Starter plan with a 1 GB disk so accounts survive redeploys (Render's free plan has no disk, so users would be wiped on every deploy).
+The earlier version with its own Node server is on the `node-server` branch.
