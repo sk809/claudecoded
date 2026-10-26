@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import StyleCard from "@/components/StyleCard";
 import PreviewDialog from "@/components/PreviewDialog";
-import { CATEGORIES, STYLES, type Style } from "@/lib/styles";
+import { CATEGORIES, STYLES, getStyle, type Style } from "@/lib/styles";
 
 const TOTAL = STYLES.length;
 
@@ -116,7 +116,7 @@ export default function Home() {
               {FEATURED.map((f) => (
                 <article className="video" key={f.slug}>
                   <Link className="screen" to={`/styles/${f.slug}`}>
-                    <img src={`/styles-img/${f.slug}.jpg`} alt={`${f.title} still`} />
+                    <img src={getStyle(f.slug)?.image ?? undefined} alt={`${f.title} still`} />
                     <span className="play" aria-hidden="true">▶</span><span className="dur">{f.dur}</span>
                   </Link>
                   <div className="info"><h3>{f.title}</h3><p>{f.note}</p></div>
@@ -182,7 +182,7 @@ export default function Home() {
             <Link className="btn btn-primary" to="/signup">Create your account</Link>
             <p>Free to browse · every style included on every plan</p>
             <div className="mosaic" aria-hidden="true">
-              {["pixel-rpg", "stained-glass", "brick-toy", "ink-wash", "lidar-survey", "cel-anime-80s"].map((s) => <img key={s} src={`/styles-img/${s}.jpg`} alt="" loading="lazy" />)}
+              {["pixel-rpg", "stained-glass", "brick-toy", "ink-wash", "lidar-survey", "cel-anime-80s"].map((s) => <img key={s} src={getStyle(s)?.image ?? undefined} alt="" loading="lazy" />)}
             </div>
           </div>
         </section>
